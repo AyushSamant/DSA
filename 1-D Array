@@ -1,0 +1,17 @@
+#include<stdio.h>
+//1-D Array example
+int main(){
+	float temp[10];//Defining variable with float data type
+	int i=0; // initialising variable 'i'
+	while(i<10){ // using a while loop
+		printf("Enter temperature of day %d: ",i+1); // as index start from 0(unsigned integer) adding 1 to i
+		scanf("%f",&temp[i]);
+		++i; // updating the value of i
+	}
+	i=0; // reinitialising i with 0 
+	while(i<10){
+		printf("Temperatur of day %d = %.2f\n",i+1,temp[i]);
+		++i;
+	}
+	return 0;
+}
