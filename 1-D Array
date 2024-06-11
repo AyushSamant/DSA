@@ -15,3 +15,4 @@ int main(){
 	}
 	return 0;
 }
+note: the indexes in arrays can be og unsigned int (start from 0).
